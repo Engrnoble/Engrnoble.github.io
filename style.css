@@ -1,0 +1,95 @@
+* {
+    font-family: 'Outfit';
+    src: url('(https://fonts.google.com/specimen/Outfit)');
+}
+
+body {
+    background-color: hsl(220, 15%, 55%);
+}
+
+#container {
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid hsl(0, 0%, 100%);
+    border-radius: 13px;
+    width: 320px;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+}
+
+.image-div {
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 13px;
+    width: 310px;
+}
+
+figure {
+    width: 300px;
+    margin-left: 3px;
+}
+
+.image-div figure img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 13px;
+    width: 300px;
+    margin-left: 5px;
+}  
+
+.text-div {
+    text-align: center;
+    margin-top: 0px;
+    padding: 3px;
+}
+
+.first-paragraph {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 3px;
+}
+
+.second-paragraph {
+    color: hsl(220, 15%, 55%);
+    margin-top: 2px;
+    font-size: 1rem;
+    font-weight: bold
+}
+
+a {
+    text-decoration: none;
+}
+
+ /* media size */
+@media screen and (max-width:600px){
+     
+
+}
+
+
+
+/*
+ Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/ 
